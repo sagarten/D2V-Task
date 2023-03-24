@@ -1,0 +1,126 @@
+.Container{
+    /* display: flex;
+    justify-content: space-between; */
+    height: 450px;
+    background-image: url(https://img.freepik.com/premium-photo/girl-holding-book-shelf-high-quality-photo-student-library_406679-415.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Bar{
+    display: flex;
+    flex: 3;
+    background-color: rgba(248, 42, 6, 0.918);
+    height: 100px;
+}
+.list,li,a{
+    display: flex;
+    flex: 9;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+   
+}
+h1{
+   color: white;
+   font-size: 40px;
+}
+button{
+
+   margin: 2px;
+}
+button:hover{
+    background-color: rgb(255, 166, 0);
+}
+.mid{
+    background-color: rgb(245, 133, 6);
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+input{
+    display: flex;
+    justify-content:space-between;
+
+    background-color: rgb(68, 67, 67);
+    height: 30px;
+    width: 195px;
+}
+#search{
+    background-color: rgb(241, 82, 34);
+}
+.wel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hole{
+    display: flex;
+    justify-content: space-between;
+}
+.hole-m:hover{
+    color: orange;
+}
+.hole-e{
+    display: flex;
+    flex:3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hole-a{
+    display: flex;
+    flex:3;
+    flex-direction: column;  
+}
+.hole-m{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+}
+.hole-t{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+}
+#o{
+ font-size: 20px;
+}
+#o,p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(data:image/jpeg;base64,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);
+}
+.boo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 10px;
+   
+}
+.boo:hover{
+    color: orange;
+}
+.imbo{
+    display: flex;
+    flex-wrap:nowrap;
+    width: 660px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
